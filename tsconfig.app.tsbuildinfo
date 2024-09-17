@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Dropzone.tsx","./src/components/FileList.tsx","./src/components/MergeButton.tsx","./src/components/MergeIcon.tsx","./src/components/Navbar.tsx","./src/utils/classNames.ts","./src/utils/generateFileId.ts"],"version":"5.6.2"}
