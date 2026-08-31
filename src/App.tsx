@@ -52,7 +52,7 @@ export default function App() {
 
       for (const { file } of files) {
         const arrayBuffer = await file.arrayBuffer();
-        const pdfDoc = await PDFDocument.load(arrayBuffer);
+        const pdfDoc = await PDFDocument.load(arrayBuffer, { ignoreEncryption: true });
         const pages = await pdfDoc.getPages();
 
         for (let i = 0; i < pages.length; i++) {
